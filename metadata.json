@@ -1,0 +1,6 @@
+{
+  "name": "Gerenciador de Tickets de Suporte",
+  "description": "Sistema completo para controle, cadastro e gerenciamento de tickets de suporte com banco de dados em tempo real.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

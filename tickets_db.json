@@ -1,0 +1,373 @@
+[
+  {
+    "id": "TCK-6620",
+    "title": "Erro de NFCe",
+    "description": "NFCe duplicada",
+    "category": "technical",
+    "status": "open",
+    "priority": "medium",
+    "customerName": "Mariana",
+    "customerEmail": "mariana@aipo.com",
+    "company": "",
+    "createdAt": "2026-06-06T03:09:34.610Z",
+    "updatedAt": "2026-06-06T03:09:34.610Z",
+    "attachments": [],
+    "interactions": [
+      {
+        "id": "int-aovv9nb",
+        "author": "Mariana",
+        "role": "customer",
+        "message": "NFCe duplicada",
+        "createdAt": "2026-06-06T03:09:34.610Z",
+        "attachments": []
+      },
+      {
+        "id": "int-cmswwn1",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Ticket criado com categoria Técnico e prioridade Média. Status definido como Aberto.",
+        "createdAt": "2026-06-06T03:09:34.610Z"
+      }
+    ]
+  },
+  {
+    "id": "TCK-6513",
+    "title": "Erro de integração",
+    "description": "Ifood nao integra pedidos",
+    "category": "technical",
+    "status": "in_progress",
+    "priority": "urgent",
+    "customerName": "Brutus Salgados",
+    "customerEmail": "brutus@brutus.com",
+    "company": "Brutus Salgados",
+    "createdAt": "2026-06-06T03:04:10.996Z",
+    "updatedAt": "2026-06-06T03:06:18.170Z",
+    "attachments": [],
+    "interactions": [
+      {
+        "id": "int-mwdrnw4",
+        "author": "Brutus Salgados",
+        "role": "customer",
+        "message": "Ifood nao integra pedidos",
+        "createdAt": "2026-06-06T03:04:10.996Z",
+        "attachments": []
+      },
+      {
+        "id": "int-d4neri3",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Ticket criado com categoria Técnico e prioridade Média. Status definido como Aberto.",
+        "createdAt": "2026-06-06T03:04:10.996Z"
+      },
+      {
+        "id": "msg-52y871x",
+        "author": "Brutus Salgados",
+        "role": "customer",
+        "message": "tenho urgencia na resolução",
+        "attachments": [],
+        "createdAt": "2026-06-06T03:05:02.165Z"
+      },
+      {
+        "id": "system-z1mauff",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Atendente alterado de \"Ninguém\" para \"Sergio Aquino\".",
+        "createdAt": "2026-06-06T03:05:52.850Z"
+      },
+      {
+        "id": "system-qdlic0g",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Prioridade alterada de \"Média\" para \"Urgente\" por Sergio Aquino.",
+        "createdAt": "2026-06-06T03:05:54.955Z"
+      },
+      {
+        "id": "system-h7pw3st",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Status alterado de \"Aberto\" para \"Em Atendimento\" por Sergio Aquino.",
+        "createdAt": "2026-06-06T03:05:57.032Z"
+      },
+      {
+        "id": "email-91pynbk",
+        "author": "Notificação por E-mail",
+        "role": "system",
+        "message": "✉️ Notificação enviada com sucesso via SMTP para brutus@brutus.com.",
+        "createdAt": "2026-06-06T03:05:57.032Z"
+      },
+      {
+        "id": "msg-6l6oa0s",
+        "author": "Sergio Aquino",
+        "role": "agent",
+        "message": "Sera preciso refazer integração, quando podemos acessar ?",
+        "attachments": [],
+        "createdAt": "2026-06-06T03:06:18.170Z"
+      }
+    ],
+    "assignedAgent": "Sergio Aquino"
+  },
+  {
+    "id": "TCK-4819",
+    "title": "Erro 500 ao acessar a tela de checkout",
+    "description": "Sempre que tento processar o pagamento com cartão de crédito na tela final do checkout, sou redirecionado para uma tela vazia com erro interno HTTP 500 do servidor. Já limpei os cookies do navegador e tentei em aba anônima, mas o erro acontece repetidamente no momento da confirmação de compra.",
+    "category": "technical",
+    "status": "closed",
+    "priority": "high",
+    "customerName": "Mariana Silva",
+    "customerEmail": "mariana.silva@exemplo.com",
+    "assignedAgent": "Lucas Souza",
+    "createdAt": "2026-06-03T10:15:22Z",
+    "updatedAt": "2026-06-06T02:51:16.062Z",
+    "interactions": [
+      {
+        "id": "int-1",
+        "author": "Mariana Silva",
+        "role": "customer",
+        "message": "Sempre que tento processar o pagamento com cartão de crédito na tela final do checkout, sou redirecionado para uma tela vazia com erro interno HTTP 500 do servidor. Já limpei os cookies do navegador e tentei em aba anônima, mas o erro acontece repetidamente no momento da confirmação de compra.",
+        "createdAt": "2026-06-03T10:15:22Z"
+      },
+      {
+        "id": "int-2",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Ticket criado com categoria Técnico e prioridade Alta. Status definido como Aberto.",
+        "createdAt": "2026-06-03T10:15:22Z"
+      },
+      {
+        "id": "int-3",
+        "author": "Lucas Souza",
+        "role": "agent",
+        "message": "Olá, Mariana! Analisei os logs do servidor e identifiquei que a falha ocorre por timeout na comunicação com o gateway de testes da operadora Elo. Estamos aplicando uma otimização no tempo de resposta para que o sistema tente uma segunda comunicação de contingência. Em instantes finalizaremos a implementação. Enquanto isso, poderia me informar qual bandeira de cartão você utilizou?",
+        "createdAt": "2026-06-03T11:30:00Z"
+      },
+      {
+        "id": "int-4",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Status alterado de Aberto para Em Atendimento por Lucas Souza.",
+        "createdAt": "2026-06-03T11:30:00Z"
+      },
+      {
+        "id": "int-5",
+        "author": "Mariana Silva",
+        "role": "customer",
+        "message": "Olá, Lucas! Eu utilizei justamente um cartão de bandeira Elo. Que bom que descobriram a causa! Aguardo o aviso de vocês para tentar novamente.",
+        "createdAt": "2026-06-03T13:40:10Z"
+      },
+      {
+        "id": "system-469fl82",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Status alterado de \"Em Atendimento\" para \"Fechado\" por Cliente.",
+        "createdAt": "2026-06-06T02:51:16.062Z"
+      },
+      {
+        "id": "email-gsxvdc9",
+        "author": "Notificação por E-mail",
+        "role": "system",
+        "message": "❌ Falha ao tentar disparar e-mail via SMTP para mariana.silva@exemplo.com (Status: Fechado): Message failed: 451 4.3.0 Error: queue file write error",
+        "createdAt": "2026-06-06T02:51:16.062Z"
+      }
+    ]
+  },
+  {
+    "id": "TCK-5201",
+    "title": "Dúvida sobre alteração de plano anual para plano mensal integrado",
+    "description": "Gostaria de saber se é possível migrar minha assinatura atual que está cadastrada no faturamento anual para uma cobrança mensal automática diretamente pelo painel, sem que eu perca as métricas e análises dos projetos já configurados em minha conta.",
+    "category": "billing",
+    "status": "closed",
+    "priority": "low",
+    "customerName": "Roberto Mendes",
+    "customerEmail": "roberto@empresa.com",
+    "createdAt": "2026-06-04T09:12:00Z",
+    "updatedAt": "2026-06-06T02:54:38.973Z",
+    "interactions": [
+      {
+        "id": "int-6",
+        "author": "Roberto Mendes",
+        "role": "customer",
+        "message": "Gostaria de saber se é possível migrar minha assinatura atual que está cadastrada no faturamento anual para uma cobrança mensal automática diretamente pelo painel, sem que eu perca as métricas e análises dos projetos já configurados em minha conta.",
+        "createdAt": "2026-06-04T09:12:00Z"
+      },
+      {
+        "id": "int-7",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Ticket criado com categoria Financeiro e prioridade Baixa. Status definido como Aberto.",
+        "createdAt": "2026-06-04T09:12:00Z"
+      },
+      {
+        "id": "system-brkfjr3",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Atendente alterado de \"Ninguém\" para \"Suporte Master\".",
+        "createdAt": "2026-06-06T02:54:05.680Z"
+      },
+      {
+        "id": "msg-er3vztt",
+        "author": "Suporte Master",
+        "role": "agent",
+        "message": "nao há perda de dados em qualquer mudança de plano",
+        "attachments": [],
+        "createdAt": "2026-06-06T02:54:32.204Z"
+      },
+      {
+        "id": "system-xfqep62",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Status alterado de \"Aberto\" para \"Resolvido\" por Suporte Master.",
+        "createdAt": "2026-06-06T02:54:33.673Z"
+      },
+      {
+        "id": "email-6943z18",
+        "author": "Notificação por E-mail",
+        "role": "system",
+        "message": "✉️ Notificação enviada com sucesso via SMTP para roberto@empresa.com.",
+        "createdAt": "2026-06-06T02:54:33.673Z"
+      },
+      {
+        "id": "system-f5h76ze",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Status alterado de \"Resolvido\" para \"Fechado\" por Suporte Master.",
+        "createdAt": "2026-06-06T02:54:38.973Z"
+      },
+      {
+        "id": "email-uzjaxxr",
+        "author": "Notificação por E-mail",
+        "role": "system",
+        "message": "✉️ Notificação enviada com sucesso via SMTP para roberto@empresa.com.",
+        "createdAt": "2026-06-06T02:54:38.973Z"
+      }
+    ],
+    "assignedAgent": "Suporte Master"
+  },
+  {
+    "id": "TCK-2940",
+    "title": "Sugestão: Botão para exportação de relatórios em PDF/CSV",
+    "description": "Nossa equipe utiliza muito os relatórios gerados pelo dashboard de performance. Facilitaria muito se pudessem adicionar um recurso para exportar as planilhas e gráficos diretamente em arquivo CSV ou relatório PDF consolidado. Isso nos economizaria muito tempo de tabulação manual de dados.",
+    "category": "feature",
+    "status": "solved",
+    "priority": "medium",
+    "customerName": "Beatriz Ribeiro",
+    "customerEmail": "beatriz.ribeiro@growth.tech",
+    "assignedAgent": "Aline Santos",
+    "createdAt": "2026-06-01T14:22:00Z",
+    "updatedAt": "2026-06-02T16:05:00Z",
+    "interactions": [
+      {
+        "id": "int-8",
+        "author": "Beatriz Ribeiro",
+        "role": "customer",
+        "message": "Nossa equipe utiliza muito os relatórios gerados pelo dashboard de performance. Facilitaria muito se pudessem adicionar um recurso para exportar as planilhas e gráficos diretamente em arquivo CSV ou relatório PDF consolidado. Isso nos economizaria muito tempo de tabulação manual de dados.",
+        "createdAt": "2026-06-01T14:22:00Z"
+      },
+      {
+        "id": "int-9",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Ticket criado com categoria Sugestão e prioridade Média. Status definido como Aberto.",
+        "createdAt": "2026-06-01T14:22:00Z"
+      },
+      {
+        "id": "int-10",
+        "author": "Aline Santos",
+        "role": "agent",
+        "message": "Olá, Beatriz! Tudo bem? Excelente sugestão. Tenho uma ótima notícia para você: acabamos de disponibilizar a exportação direta em formato CSV em nosso último update! Você pode acessar clicando no menu suspenso de três pontos no canto superior de cada widget do gráfico. A exportação consolidada em PDF já está no planejamento do nosso time para o próximo trimestre. Espero que isso já ajude seu time de Growth!",
+        "createdAt": "2026-06-02T15:50:00Z"
+      },
+      {
+        "id": "int-11",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Status alterado de Aberto para Em Atendimento por Aline Santos.",
+        "createdAt": "2026-06-02T15:50:00Z"
+      },
+      {
+        "id": "int-12",
+        "author": "Beatriz Ribeiro",
+        "role": "customer",
+        "message": "Nossa, que maravilhoso! Testei aqui e funcionou perfeitamente. Vai poupar horas de trabalho do nosso time. Muito obrigada pela agilidade e pelo excelente suporte de sempre!",
+        "createdAt": "2026-06-02T16:00:00Z"
+      },
+      {
+        "id": "int-13",
+        "author": "Aline Santos",
+        "role": "agent",
+        "message": "Fico extremamente feliz em ajudar, Beatriz! Vou marcar este ticket como Resolvido. Qualquer nova sugestão ou problema, pode abrir um novo chamado. Tenha uma excelente semana!",
+        "createdAt": "2026-06-02T16:04:30Z"
+      },
+      {
+        "id": "int-14",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Status alterado de Em Atendimento para Resolvido por Aline Santos.",
+        "createdAt": "2026-06-02T16:05:00Z"
+      }
+    ]
+  },
+  {
+    "id": "TCK-9921",
+    "title": "Incompatibilidade de layout com Safari iOS",
+    "description": "O menu lateral do painel do cliente fica cortado ou empurrado para baixo quando acessado pelo navegador Safari em iPhones com tela menor (especialmente o SE e modelos Mini). Os botões de ação do topo do dashboard também não estão clicáveis.",
+    "category": "technical",
+    "status": "closed",
+    "priority": "urgent",
+    "customerName": "Carlos Drumond",
+    "customerEmail": "carlos@drumond.adv.br",
+    "assignedAgent": "Lucas Souza",
+    "createdAt": "2026-05-30T08:00:00Z",
+    "updatedAt": "2026-05-31T09:45:00Z",
+    "interactions": [
+      {
+        "id": "int-15",
+        "author": "Carlos Drumond",
+        "role": "customer",
+        "message": "O menu lateral do painel do cliente fica cortado ou empurrado para baixo quando acessado pelo navegador Safari em iPhones com tela menor (especialmente o SE e modelos Mini). Os botões de ação do topo do dashboard também não estão clicáveis.",
+        "createdAt": "2026-05-30T08:00:00Z"
+      },
+      {
+        "id": "int-16",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Ticket criado com categoria Técnico e prioridade Urgente. Status definido como Aberto.",
+        "createdAt": "2026-05-30T08:00:00Z"
+      },
+      {
+        "id": "int-17",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Ticket atribuído a Lucas Souza com prioridade Urgente.",
+        "createdAt": "2026-05-30T08:05:00Z"
+      },
+      {
+        "id": "int-18",
+        "author": "Lucas Souza",
+        "role": "agent",
+        "message": "Prezado Carlos, identificamos o problema relacionado ao flexbox e viewport customizado que o Safari do iOS interpretava incorretamente. Lançamos uma nova folha de estilo responsiva para dispositivos abaixo de 375px de largura. A correção foi posta em produção nesta madrugada.",
+        "createdAt": "2026-05-31T09:30:00Z"
+      },
+      {
+        "id": "int-19",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Status alterado de Aberto para Em Atendimento por Lucas Souza.",
+        "createdAt": "2026-05-31T09:30:00Z"
+      },
+      {
+        "id": "int-20",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Status alterado de Em Atendimento para Resolvido automaticamente por inatividade ou fechamento pelo agente.",
+        "createdAt": "2026-05-31T09:40:00Z"
+      },
+      {
+        "id": "int-21",
+        "author": "Sistema",
+        "role": "system",
+        "message": "Ticket marcado como Fechado de forma definitiva.",
+        "createdAt": "2026-05-31T09:45:00Z"
+      }
+    ]
+  }
+]
